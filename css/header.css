@@ -4,12 +4,22 @@ header {
   background: url(../img/header_back.jpg) no-repeat 0px -10px;
   background-size: cover;
   overflow: hidden;
+  position: relative;
+}
+.header_wrap {
+  width: 1440px;
+  height: 100%;
+  /* background-color: blue; */
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  margin-left: -720px;
 }
 .mainmenu {
   width: 100%;
   height: 120px;
   /* background-color: black; */
-  position: relative;
+  position: absolute;
   top: 0px;
   left: 0px;
   display: flex;
@@ -19,7 +29,8 @@ header {
   width: 100px;
   height: 50px;
   position: absolute;
-  left: 180px;
+  left: 0px;
+  top: 36px;
 }
 .logo img {
   width: 100%;
@@ -32,15 +43,15 @@ header {
   align-items: center;
   /* background-color: red; */
   position: absolute;
-  right: 180px;
-  font-size: 1.2rem;
+  right: 0px;
+  font-size: 1.1rem;
   font-weight: 500;
   color: white;
   letter-spacing: 0.3px;
 }
 .mainmenu_list li {
   width: auto;
-  height: 27px;
+  height: 26px;
   box-sizing: border-box;
   /* background-color: blue; */
 }
@@ -53,10 +64,8 @@ header {
   /* background-color: red; */
   display: flex;
   flex-direction: column;
-  margin-left: 180px;
-  margin-top: 142px;
-  position: relative;
-  top: 0px;
+  position: absolute;
+  top: 300px;
   left: 0px;
 }
 .title_img {
@@ -68,12 +77,12 @@ header {
 }
 .main_txt {
   margin-top: 53px;
-  line-height: 34px;
-  font-size: 1.188rem;
+  line-height: 34.5px;
+  font-size: 1.16rem;
   width: 510px;
   height: 165px;
   color: white;
-  font-weight: 300;
+  font-weight: 400;
   /* background-color: blue; */
 }
 .btn_wrap {
@@ -98,32 +107,32 @@ header {
   color: #373737;
   background-color: white;
   font-family: "noto sans kr";
-  font-weight: bold;
+  font-weight: 500;
   font-size: 1rem;
   cursor: pointer;
 }
 .icon_box {
   /* background-color: red; */
-  /height: 24px;
+  height: 24px;
   width: 100%;
   display: flex;
   justify-content: center;
+  align-items: center;
   position: absolute;
-  bottom: 60px;
+  bottom: 50px;
 }
 .fa-computer-mouse {
   color: white;
-  font-size: 24px;
-  animation: ani_mouse 2s infinite;
+  font-size: 23px;
+  animation: ani_mouse 1.6s infinite;
 }
 @keyframes ani_mouse {
   0% {
-    height: 40px;
-  }
-  50% {
-    height: 10px;
+    height: 80px;
+    opacity: 1;
   }
   100% {
-    height: 40px;
+    height: 0px;
+    opacity: 0;
   }
 }
