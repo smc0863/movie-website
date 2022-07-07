@@ -28,20 +28,19 @@ header {
   width: 780px;
   height: 100%;
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   align-items: center;
   /* background-color: red; */
   position: absolute;
   right: 180px;
-  font-size: 1.25rem;
+  font-size: 1.2rem;
   font-weight: 500;
   color: white;
   letter-spacing: 0.3px;
 }
 .mainmenu_list li {
   width: auto;
-  height: 28px;
+  height: 27px;
   box-sizing: border-box;
   /* background-color: blue; */
 }
@@ -56,6 +55,9 @@ header {
   flex-direction: column;
   margin-left: 180px;
   margin-top: 142px;
+  position: relative;
+  top: 0px;
+  left: 0px;
 }
 .title_img {
   width: 588px;
@@ -75,12 +77,14 @@ header {
   /* background-color: blue; */
 }
 .btn_wrap {
-  /* background-color: red; */
+  /* background-color: blue; */
   width: 360px;
   height: 52px;
   display: flex;
   justify-content: space-between;
   margin-top: 72px;
+  position: absolute;
+  bottom: 0px;
 }
 .btn_wrap button:first-child {
   background-color: #d23a48;
@@ -100,10 +104,12 @@ header {
 }
 .icon_box {
   /* background-color: red; */
-  height: 200px;
+  /height: 24px;
+  width: 100%;
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+  position: absolute;
+  bottom: 60px;
 }
 .fa-computer-mouse {
   color: white;
