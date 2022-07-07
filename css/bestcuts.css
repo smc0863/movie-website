@@ -6,11 +6,11 @@
   bottom: 350px;
 }
 .photo_wrap {
-  width: 1200px;
+  width: 1390px;
   height: 1280px;
   position: absolute;
   left: 50%;
-  margin-left: -600px;
+  margin-left: -695px;
   /* background-color: red; */
   margin-top: 110px;
 }
@@ -19,21 +19,49 @@
   height: 450px;
   color: white;
 }
+.moreview {
+  /* background-color: red; */
+  color: white;
+  position: absolute;
+  top: 0px;
+  right: 137px;
+  font-family: "roboto";
+  font-weight: 400;
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.moreview a {
+  opacity: 0.7;
+}
+.fa-arrow-right-long {
+  animation: ani_more 2s infinite;
+  opacity: 0.7;
+}
+.photo_wrap div {
+  overflow: hidden;
+}
 .photo_wrap div img {
   width: 460px;
   height: 300px;
+  transition: 0.3s ease;
+}
+
+.photo_wrap div img:hover {
+  transform: scale(102%);
 }
 .photo_wrap div p {
   text-align: center;
-  font-size: 20px;
+  font-size: 19px;
   font-weight: 400;
   margin-top: 40px;
 }
 .photo_wrap div p span {
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 400;
   color: white;
-  opacity: 0.6;
+  opacity: 0.5;
+  letter-spacing: 0.7px;
 }
 .photo_wrap_title {
   opacity: 0.9;
@@ -43,12 +71,12 @@
 }
 .photo_2 {
   position: absolute;
-  right: 0px;
+  right: 126px;
   top: 310px;
 }
 .photo_3 {
   position: absolute;
-  left: 0px;
+  left: 90px;
   top: 620px;
 }
 .photo_4 {
@@ -56,13 +84,26 @@
   right: 0px;
   top: 930px;
 }
-.photo_wrap > div > img:hover {
-}
 .saying {
-  font: 900 54px "noto sans kr";
+  font: 900 60px "noto sans kr";
   position: absolute;
-  bottom: 56px;
+  bottom: 70px;
   left: 58px;
+  line-height: 100px;
   opacity: 0.1;
   color: rgb(157, 157, 157);
+}
+/* .saying span {
+  font-size: 50px;
+} */
+@keyframes ani_more {
+  0% {
+    width: 0px;
+  }
+  50% {
+    width: 15px;
+  }
+  100% {
+    width: 0px;
+  }
 }
