@@ -1,3 +1,3 @@
-# Korea Movie Website Design & Publishing
+# Movie Website Design & Publishing
 
 Vacation Second Project

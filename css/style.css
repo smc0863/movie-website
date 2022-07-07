@@ -1,9 +1,8 @@
-/* 구글 폰트 */
-@import url(//fonts.googleapis.com/earlyaccess/kopubbatang.css);
 /* css */
 @import "reset.css";
 @import "header.css";
-
+/* 구글 폰트 */
+@import url(//fonts.googleapis.com/earlyaccess/kopubbatang.css);
 .hidden {
   font-size: 0px;
   height: 1px;
