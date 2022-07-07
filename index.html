@@ -13,14 +13,20 @@
       integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
       crossorigin="anonymous"
     />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js"
+      integrity="sha512-8E3KZoPoZCD+1dgfqhPbejQBnQfBXe8FuwL4z/c8sTrgeDMFEnoyTlH3obB4/fV+6Sg0a0XF+L/6xS4Xx1fUEg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
   </head>
   <body>
     <ul class="skipmenu">
       <li><a href="#header">메인 바로가기</a></li>
       <li><a href="#contents">본문 바로가기</a></li>
-      <li><a href="#">예고편 바로가기</a></li>
-      <li><a href="#">포스터 바로가기</a></li>
-      <li><a href="#">하단 바로가기</a></li>
+      <li><a href="#video">예고편 바로가기</a></li>
+      <li><a href="#poster">포스터 바로가기</a></li>
+      <li><a href="#footer">하단 바로가기</a></li>
     </ul>
     <header id="header">
       <div class="header_wrap">
@@ -65,10 +71,12 @@
       <div class="main_wrap">
         <section class="synopsis">
           <h2 class="hidden">시놉시스</h2>
-          <div class="synopsis_title_wrap">
-            <div class="synopsis_main_title">Synopsis</div>
-            <div class="synopsis_line"></div>
-            <div class="synopsis_logo"><img src="img/Logo.png" alt="" /></div>
+          <div class="overlap_title_wrap">
+            <div class="overlap_main_title">Synopsis</div>
+            <div class="overlap_line"></div>
+            <div class="overlap_logo">
+              <img src="img/Logo.png" alt="이상한나라의수학자" />
+            </div>
           </div>
           <ul class="synopsis_list">
             <li><img src="img/synopsis_2.jpg" alt="영화스틸컷 1" /></li>
@@ -93,7 +101,69 @@
             </div>
           </div>
         </section>
+        <section class="bestcuts scroll-spy">
+          <h2 class="hidden">명장면</h2>
+          <div class="overlap_title_wrap">
+            <div class="overlap_main_title">Best Movie Cuts</div>
+            <div class="overlap_line"></div>
+            <div class="overlap_logo">
+              <img src="img/Logo.png" alt="이상한나라의수학자" />
+            </div>
+          </div>
+          <div class="photo_wrap">
+            <div class="photo_1 back-to-position to-right">
+              <img src="img/cuts_1.jpg" alt="명대사1" />
+              <p class="photo_wrap_title">이학성 <span>(최민식)</span></p>
+              <p class="photo_wrap_text">
+                "나는 증명되지 않은 건 믿지 않는다."
+              </p>
+            </div>
+            <div class="photo_2 back-to-position to-left">
+              <img src="img/cuts_2.jpg" alt="명대사2" />
+              <p class="photo_wrap_title">안기철 <span>(박해준)</span></p>
+              <p class="photo_wrap_text">
+                "큰 건 몰라도 소소한 건 누리고 삽시다."
+              </p>
+            </div>
+            <div class="photo_3 back-to-position to-right">
+              <img src="img/cuts_3.jpg" alt="명대사3" />
+              <p class="photo_wrap_title">이학성 <span>(최민식)</span></p>
+              <p class="photo_wrap_text">
+                "정답보다 중요한 건 답을 찾는 과정이야."
+              </p>
+            </div>
+            <div class="photo_4 back-to-position to-left">
+              <img src="img/cuts_4.jpg" alt="명대사4" />
+              <p class="photo_wrap_title">한지우 <span>(김동휘)</span></p>
+              <p class="photo_wrap_text">
+                "틀린 문제에선 옳은 답이 나올 수 없습니다."
+              </p>
+            </div>
+          </div>
+        </section>
       </div>
+      <p class="saying">
+        Pure mathematics is, in its way <br />
+        the poetry of logical ideas.
+      </p>
     </main>
+    <section id="video" class="video">
+      <h2 class="hidden">수상한 나라의 수학자 예고편</h2>
+      <video src=""></video>
+    </section>
+
+    <script>
+      const spyEls = document.querySelectorAll("section.scroll-spy");
+      const controller = new ScrollMagic.Controller();
+
+      spyEls.forEach(function (spyEl) {
+        new ScrollMagic.Scene({
+          triggerElement: spyEl,
+          // triggerHook: 0.1,
+        })
+          .setClassToggle(spyEl, "show")
+          .addTo(controller);
+      });
+    </script>
   </body>
 </html>

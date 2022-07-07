@@ -1,0 +1,68 @@
+.bestcuts {
+  width: 100%;
+  height: 1500px;
+  /* background-color: red; */
+  position: absolute;
+  bottom: 350px;
+}
+.photo_wrap {
+  width: 1200px;
+  height: 1280px;
+  position: absolute;
+  left: 50%;
+  margin-left: -600px;
+  /* background-color: red; */
+  margin-top: 110px;
+}
+.photo_wrap div {
+  width: 460px;
+  height: 450px;
+  color: white;
+}
+.photo_wrap div img {
+  width: 460px;
+  height: 300px;
+}
+.photo_wrap div p {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 40px;
+}
+.photo_wrap div p span {
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+  opacity: 0.6;
+}
+.photo_wrap_title {
+  opacity: 0.9;
+}
+.photo_wrap_text {
+  opacity: 0.9;
+}
+.photo_2 {
+  position: absolute;
+  right: 0px;
+  top: 310px;
+}
+.photo_3 {
+  position: absolute;
+  left: 0px;
+  top: 620px;
+}
+.photo_4 {
+  position: absolute;
+  right: 0px;
+  top: 930px;
+}
+.photo_wrap > div > img:hover {
+}
+.saying {
+  font: 900 54px "noto sans kr";
+  position: absolute;
+  bottom: 56px;
+  left: 58px;
+  opacity: 0.1;
+  color: rgb(157, 157, 157);
+}

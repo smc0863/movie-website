@@ -23,7 +23,7 @@ main {
   top: 282px;
   display: flex;
 }
-.synopsis_title_wrap {
+.overlap_title_wrap {
   width: 100%;
   height: 64px;
   /* background-color: red; */
@@ -32,13 +32,13 @@ main {
   top: 0px;
   left: 0px;
 }
-.synopsis_main_title {
+.overlap_main_title {
   font-size: 1.875rem;
   color: white;
   opacity: 0.9;
   margin-top: 10px;
 }
-.synopsis_line {
+.overlap_line {
   width: 90%;
   height: 64px;
   border-bottom: 1px solid white;
@@ -46,7 +46,7 @@ main {
   left: 0px;
   opacity: 0.9;
 }
-.synopsis_logo {
+.overlap_logo {
   width: 108px;
   height: 48px;
   opacity: 0.3;
@@ -54,7 +54,7 @@ main {
   right: 0px;
   bottom: 0px;
 }
-.synopsis_logo img {
+.overlap_logo img {
   width: 100%;
 }
 .synopsis_list {
