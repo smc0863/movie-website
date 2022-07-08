@@ -7,13 +7,13 @@ main {
   left: 0px;
 }
 .main_wrap {
-  width: 1390px;
+  width: 1160px;
   height: 100%;
   /* background-color: red; */
   position: absolute;
   top: 0px;
   left: 50%;
-  margin-left: -695px;
+  margin-left: -580px;
 }
 .synopsis {
   width: 100%;
@@ -23,39 +23,41 @@ main {
   top: 282px;
   display: flex;
 }
-.overlap_title_wrap {
+.synopsis_title_wrap {
   width: 100%;
   height: 64px;
   /* background-color: red; */
   display: flex;
+  justify-content: center;
   position: relative;
   top: 0px;
   left: 0px;
 }
-.overlap_main_title {
+.synopsis_main_title::before {
+  content: "";
+  display: block;
+  width: 465px;
+  border-top: 1px solid white;
+  position: absolute;
+  top: 30px;
+  left: 0px;
+  opacity: 0.5;
+}
+.synopsis_main_title::after {
+  content: "";
+  display: block;
+  width: 465px;
+  border-top: 1px solid white;
+  position: absolute;
+  top: 30px;
+  right: 0px;
+  opacity: 0.5;
+}
+.synopsis_main_title {
   font-size: 1.875rem;
   color: white;
-  opacity: 0.9;
+  opacity: 0.5;
   margin-top: 10px;
-}
-.overlap_line {
-  width: 91%;
-  height: 64px;
-  border-bottom: 1px solid white;
-  position: absolute;
-  left: 0px;
-  opacity: 0.9;
-}
-.overlap_logo {
-  width: 108px;
-  height: 48px;
-  opacity: 0.3;
-  position: absolute;
-  right: 0px;
-  bottom: 0px;
-}
-.overlap_logo img {
-  width: 100%;
 }
 .synopsis_list {
   width: 100%;
@@ -67,8 +69,8 @@ main {
   top: 172px;
 }
 .synopsis li {
-  width: 434px;
-  height: 290px;
+  width: 361px;
+  height: 242px;
 }
 .synopsis_list li img {
   width: 100%;
@@ -89,6 +91,7 @@ main {
   font-weight: bold;
   color: white;
   margin-bottom: 56px;
+  opacity: 0.9;
 }
 .synopsis_text {
   color: white;

@@ -16,11 +16,12 @@
   justify-content: center;
 }
 iframe {
-  margin-top: 100px;
+  margin-top: 90px;
   /* border-radius: 6px; */
 }
 .video_title {
+  margin-top: -10px;
   font-size: 1.875rem;
   color: white;
-  opacity: 0.9;
+  opacity: 0.8;
 }

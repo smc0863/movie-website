@@ -52,7 +52,7 @@ header {
 }
 .mainmenu_list li {
   width: auto;
-  height: 26px;
+  height: 24px;
   box-sizing: border-box;
   /* background-color: blue; */
 }

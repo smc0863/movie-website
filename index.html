@@ -75,12 +75,8 @@
       <div class="main_wrap">
         <section id="synopsis" class="synopsis">
           <h2 class="hidden">시놉시스영역</h2>
-          <div class="overlap_title_wrap">
-            <div class="overlap_main_title">Synopsis</div>
-            <div class="overlap_line"></div>
-            <div class="overlap_logo">
-              <img src="img/Logo.png" alt="이상한나라의수학자" />
-            </div>
+          <div class="synopsis_title_wrap">
+            <div class="synopsis_main_title">Synopsis</div>
           </div>
           <ul class="synopsis_list">
             <li><img src="img/synopsis_2.jpg" alt="영화스틸컷 1" /></li>
@@ -107,12 +103,8 @@
         </section>
         <section id="bestcuts" class="bestcuts scroll-spy">
           <h2 class="hidden">명대사소개영역</h2>
-          <div class="overlap_title_wrap">
-            <div class="overlap_main_title">Best Movie Cuts</div>
-            <div class="overlap_line"></div>
-            <div class="overlap_logo">
-              <img src="img/Logo.png" alt="이상한나라의수학자" />
-            </div>
+          <div class="bestcuts_title_wrap">
+            <div class="bestcuts_main_title">Best Movie Cuts</div>
           </div>
           <div class="photo_wrap">
             <p class="moreview back-to-position to-left">
@@ -161,7 +153,7 @@
       <div class="video">
         <p class="video_title">Official Preview</p>
         <iframe
-          width="76%"
+          width="78%"
           height="62%"
           src="https://www.youtube.com/embed/s6UPaXuEwi4"
           title="[이상한 나라의 수학자] 메인 예고편"
@@ -173,10 +165,30 @@
     </section>
 
     <section class="poster_wrap">
-      <h2 class="hideen">공식포스터소개영역</h2>
-      <div id="poster" class="poster"></div>
+      <h2 class="hidden">영화포스터소개영역</h2>
+      <div id="poster" class="poster">
+        <div class="poster_title_wrap">
+          <div class="poster_main_title">Character Poster</div>
+        </div>
+        <ul class="poster_list">
+          <li></li>
+        </ul>
     </section>
-
+    <footer id="footer">
+      <div class="footer_box">
+        <p class="footer_logo">
+          <img src="img/logo.png" alt="이상한나라의수학자" />
+        </p>
+        <ul class="footer_icon_list">
+          <li> <a href="#"> <img src="img/blog_icon.png" alt="블로그링크" style="width: 31px; height: 27px;""></a></li>
+        <li> <a href="#"> <img src="img/youtube_icon.png" alt="유튜브링크" style="width: 25px; height: 28px;""></a></li>
+          <li> <a href="#"> <img src="img/inst_icon.png" alt="인스타그램링크" style="width: 27px; height: 27px;""></a></li>
+          <li> <a href="#"> <img src="img/face_icon.png" alt="페이스북링크" style="width: 12px; height: 26px;"></a></li>
+          <li class="twitter"> <a href="#"> <img style="width: 27px; height: 24px;" src="img/twitter_icon.png" alt="트위터링크"></a></li>
+        </ul>
+        <p class="copyright">COPYRIGHT ⓒ 2022 CHEOLI'S DESIGN. ALL RIGHT RESERVED.</p>
+      </div>
+    </footer>
     <script>
       const spyEls = document.querySelectorAll("section.scroll-spy");
       const controller = new ScrollMagic.Controller();

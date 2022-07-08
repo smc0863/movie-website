@@ -5,26 +5,64 @@
   position: absolute;
   bottom: 350px;
 }
+.bestcuts_title_wrap {
+  width: 100%;
+  height: 64px;
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+.bestcuts_main_title::before {
+  content: "";
+  display: block;
+  width: 402px;
+  border-top: 1px solid white;
+  position: absolute;
+  top: 30px;
+  left: 0px;
+  opacity: 0.5;
+}
+.bestcuts_main_title::after {
+  content: "";
+  display: block;
+  width: 402px;
+  border-top: 1px solid white;
+  position: absolute;
+  top: 30px;
+  right: 0px;
+  opacity: 0.5;
+}
+.bestcuts_main_title {
+  font-size: 1.875rem;
+  color: white;
+  opacity: 0.5;
+  margin-top: 10px;
+}
 .photo_wrap {
-  width: 1390px;
-  height: 1280px;
+  width: 1160px;
+  height: 1290px;
   position: absolute;
   left: 50%;
-  margin-left: -695px;
+  margin-left: -580px;
   /* background-color: red; */
   margin-top: 110px;
 }
 .photo_wrap div {
-  width: 460px;
-  height: 450px;
+  width: 447px;
+  height: 419px;
   color: white;
+  overflow: hidden;
+  /* background-color: red; */
 }
 .moreview {
   /* background-color: red; */
   color: white;
   position: absolute;
   top: 0px;
-  right: 137px;
+  right: 16px;
   font-family: "roboto";
   font-weight: 400;
   width: 100px;
@@ -32,14 +70,11 @@
   justify-content: space-between;
 }
 .moreview a {
-  opacity: 0.7;
+  opacity: 0.5;
 }
 .fa-arrow-right-long {
   animation: ani_more 2s infinite;
-  opacity: 0.7;
-}
-.photo_wrap div {
-  overflow: hidden;
+  opacity: 0.5;
 }
 .photo_wrap div img {
   width: 460px;
@@ -54,13 +89,13 @@
   text-align: center;
   font-size: 19px;
   font-weight: 400;
-  margin-top: 40px;
+  margin-top: 38px;
 }
 .photo_wrap div p span {
   font-size: 15px;
   font-weight: 400;
   color: white;
-  opacity: 0.5;
+  opacity: 0.6;
   letter-spacing: 0.7px;
 }
 .photo_wrap_title {
@@ -71,12 +106,12 @@
 }
 .photo_2 {
   position: absolute;
-  right: 126px;
+  right: 0px;
   top: 310px;
 }
 .photo_3 {
   position: absolute;
-  left: 90px;
+  left: 0px;
   top: 620px;
 }
 .photo_4 {
@@ -85,13 +120,13 @@
   top: 930px;
 }
 .saying {
-  font: 900 60px "noto sans kr";
+  font: 900 76px "Arizonia";
   position: absolute;
-  bottom: 70px;
-  left: 58px;
+  bottom: 60px;
+  left: 68px;
   line-height: 100px;
   opacity: 0.1;
-  color: rgb(130, 130, 130);
+  color: rgb(108, 108, 108);
 }
 /* .saying span {
   font-size: 50px;
