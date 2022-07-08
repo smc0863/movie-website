@@ -11,6 +11,12 @@
 .back-to-position.to-left {
   transform: translateX(180px);
 }
+.back-to-position.to-bottom {
+  transform: translateY(-180px);
+}
+.back-to-position.to-top {
+  transform: translateY(180px);
+}
 
 .show .back-to-position {
   opacity: 1;
