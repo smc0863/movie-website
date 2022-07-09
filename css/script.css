@@ -64,7 +64,7 @@
 .swiper-slide img:hover {
   -webkit-filter: grayscale(0);
   filter: grayscale(0);
-  transform: scale(120%);
+  transform: scale(110%);
 }
 .swiper-pagination {
   position: relative;

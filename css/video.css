@@ -4,8 +4,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url(../img/media.png) no-repeat center;
+  background: url(../img/video_back.jpg) no-repeat center;
   background-size: 120%;
+  background-position-y: 0px;
+  background-attachment: fixed;
 }
 .video {
   width: 1390px;
