@@ -41,7 +41,7 @@ main {
   position: absolute;
   top: 30px;
   left: 0px;
-  opacity: 0.5;
+  opacity: 0.7;
 }
 .synopsis_main_title::after {
   content: "";
@@ -51,12 +51,12 @@ main {
   position: absolute;
   top: 30px;
   right: 0px;
-  opacity: 0.5;
+  opacity: 0.7;
 }
 .synopsis_main_title {
   font-size: 1.875rem;
   color: white;
-  opacity: 0.5;
+  opacity: 0.9;
   margin-top: 10px;
 }
 .synopsis_list {
@@ -80,7 +80,7 @@ main {
   height: 296px;
   /* background-color: green; */
   position: absolute;
-  bottom: 0px;
+  bottom: 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
