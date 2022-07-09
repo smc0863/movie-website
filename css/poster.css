@@ -4,10 +4,13 @@
   background-color: #272727;
   display: flex;
   justify-content: center;
+  position: relative;
+  overflow: hidden;
 }
 .poster {
   width: 1160px;
   height: 100%;
+  margin-top: 20px;
 }
 .poster_title_wrap {
   width: 100%;
@@ -18,7 +21,7 @@
   position: relative;
   top: 0px;
   left: 0px;
-  margin-top: 120px;
+  margin-top: 146px;
 }
 .poster_main_title {
   font-size: 1.875rem;

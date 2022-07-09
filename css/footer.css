@@ -4,7 +4,8 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url(../img/footer.jpg);
+  background: url(../img/footer.jpg) no-repeat;
+  background-size: 103%;
 }
 .footer_box {
   width: 100%;

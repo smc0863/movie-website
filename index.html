@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>이상한 나라의 수학자 - official website</title>
+    <!-- Swiper Css -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="css/style.css" />
     <!-- 폰트어썸 -->
     <link
@@ -22,6 +27,8 @@
     ></script>
     <!-- Gsap -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+     <!-- Swiper JS -->
+     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
   </head>
   <body>
     <ul class="skipmenu">
@@ -46,7 +53,7 @@
             <li><a href="#synopsis">Synopsis</a></li>
             <li><a href="#bestcuts">Best Cut</a></li>
             <li><a href="#video">Preview</a></li>
-            <li><a href="#footer">Poster</a></li>
+            <li><a href="#poster">Poster</a></li>
           </ul>
         </nav>
         <div class="title_wrap">
@@ -72,18 +79,18 @@
     </header>
 
     <main id="contents">
-      <div class="main_wrap">
-        <section id="synopsis" class="synopsis">
+      <div class="main_wrap ">
+        <section id="synopsis" class="synopsis scroll-spy">
           <h2 class="hidden">시놉시스영역</h2>
           <div class="synopsis_title_wrap">
             <div class="synopsis_main_title">Synopsis</div>
           </div>
-          <ul class="synopsis_list">
+          <ul class="synopsis_list back-to-position to-right">
             <li><img src="img/synopsis_2.jpg" alt="영화스틸컷 1" /></li>
             <li><img src="img/synopsis_3.jpg" alt="영화스틸컷 2" /></li>
             <li><img src="img/synopsis_1.jpg" alt="영화스틸컷 3" /></li>
           </ul>
-          <div class="synopsis_text_wrap">
+          <div class="synopsis_text_wrap back-to-position to-left">
             <div class="synopsis_title">
               결과보다 과정이 아름다운 인생과 수학의 만남!
             </div>
@@ -164,15 +171,38 @@
       </div>
     </section>
 
-    <section class="poster_wrap">
+    <section class="poster_wrap" id="poster">
       <h2 class="hidden">영화포스터소개영역</h2>
-      <div id="poster" class="poster">
+      <div class="poster">
         <div class="poster_title_wrap">
           <div class="poster_main_title">Character Poster</div>
         </div>
-        <ul class="poster_list">
-          <li></li>
-        </ul>
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="img/poster(1).jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="img/poster(2).jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="img/poster(3).jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="img/poster(4).jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="img/poster(5).jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="img/poster(6).jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="img/poster(7).jpg" />
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
     </section>
     <footer id="footer">
       <div class="footer_box">
@@ -210,6 +240,26 @@
           delay: (index + 1) * 0.8,
           opacity: 1,
         });
+      });
+    </script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        effect: "coverflow",
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: "auto",
+        autoplay: true,
+        loop: true,
+        coverflowEffect: {
+          rotate: 0,
+          stretch: 0,
+          depth: 0,
+          modifier: 1,
+          slideShadows: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+        },
       });
     </script>
   </body>
