@@ -57,6 +57,14 @@
   overflow: hidden;
   /* background-color: red; */
 }
+.photo_wrap div img {
+  width: 460px;
+  height: 300px;
+  transition: 0.3s ease;
+}
+.photo_wrap div img:hover {
+  transform: scale(102%);
+}
 .moreview {
   /* background-color: red; */
   color: white;
@@ -75,15 +83,6 @@
 .fa-arrow-right-long {
   animation: ani_more 2s infinite;
   opacity: 0.5;
-}
-.photo_wrap div img {
-  width: 460px;
-  height: 300px;
-  transition: 0.3s ease;
-}
-
-.photo_wrap div img:hover {
-  transform: scale(102%);
 }
 .photo_wrap div p {
   text-align: center;
