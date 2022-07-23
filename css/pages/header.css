@@ -157,14 +157,14 @@ header {
     /* background-color: red; */
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 576px) {
   #header {
     height: 800px;
     background-size: auto;
   }
   .header_wrap {
     width: 400px;
-    /* background-color: red; */
+    background-color: red;
     position: absolute;
     left: 50%;
     margin-left: -200px;
@@ -199,7 +199,7 @@ header {
     display: none;
   }
   .main_txt {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     margin-top: 80px;
     text-align: center;
     display: flex;
@@ -220,7 +220,7 @@ header {
     align-items: center;
     position: absolute;
     left: 50%;
-    margin-left: -160px;
+    margin-left: -170px;
   }
   .btn_wrap button {
     width: 340px;
@@ -231,7 +231,7 @@ header {
     background-color: white;
     font-family: "noto sans kr";
     font-weight: 400;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     cursor: pointer;
   }
   .icon_box {

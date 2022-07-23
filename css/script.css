@@ -1,5 +1,5 @@
-/* ScrollMagic */
-.back-to-position {
+/* ScrollMagic  */
+/* .back-to-position {
   opacity: 0;
   transition: 1s;
 }
@@ -29,11 +29,11 @@
 
 .show .back-to-position.delay-1 {
   transition-delay: 0.1s;
-}
+} */
 /* Gsap */
-.fade-in {
+/* .fade-in {
   opacity: 0;
-}
+} */
 /* swiper */
 .swiper {
   width: 2000px;
