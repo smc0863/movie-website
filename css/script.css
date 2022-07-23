@@ -39,11 +39,11 @@
   width: 2000px;
   padding-top: 50px;
   padding-bottom: 140px;
-  /* background-color: green; */
-  margin-top: 30px;
+  /* background-color: red; */
+  margin-top: 50px;
   position: absolute;
   left: 50%;
-  margin-left: -1032px;
+  margin-left: -1028px;
 }
 
 .swiper-slide {
@@ -68,9 +68,8 @@
 }
 .swiper-pagination {
   position: relative;
-  /* background-color: red; */
-  top: 80px;
-  left: 36px !important;
+  top: 90px;
+  left: 24px !important;
 }
 @media screen and (max-width: 576px) {
   .swiper {
@@ -93,6 +92,5 @@
   .swiper-pagination {
     position: relative;
     top: 50px;
-    left: 36px !important;
   }
 }

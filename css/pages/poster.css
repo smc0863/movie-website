@@ -5,8 +5,6 @@
   display: flex;
   justify-content: center;
   position: relative;
-  top: 0px;
-  left: 0px;
   overflow: hidden;
 }
 .poster {
@@ -23,6 +21,7 @@
   position: relative;
   top: 0px;
   left: 0px;
+  margin-top: 146px;
 }
 .poster_main_title {
   font-size: 3rem;
@@ -62,8 +61,10 @@
     margin-top: 0px;
   }
   .poster_main_title {
-    margin-top: 65px;
     font-size: 1.9rem;
+  }
+  .poster_title_wrap {
+    margin-top: 60px;
   }
 }
 /* .poster_box {
