@@ -144,7 +144,7 @@ header {
     opacity: 0;
   }
 }
-@media screen and (max-width: 1200px) {
+/* @media screen and (max-width: 1200px) {
   .header_wrap {
     width: 1000px;
     position: absolute;
@@ -154,12 +154,12 @@ header {
   }
   .mainmenu_list {
     width: 600px;
-    /* background-color: red; */
+    background-color: red;
   }
-}
+} */
 @media screen and (max-width: 576px) {
   #header {
-    height: 800px;
+    height: 780px;
     background-size: auto;
     display: flex;
     align-items: center;

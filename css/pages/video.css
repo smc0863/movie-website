@@ -19,6 +19,8 @@
 }
 iframe {
   margin-top: 90px;
+  width: 78%;
+  height: 62%;
   /* border-radius: 6px; */
 }
 
@@ -27,4 +29,29 @@ iframe {
   font-size: 3rem;
   color: white;
   opacity: 0.9;
+}
+@media screen and (max-width: 576px) {
+  .video_wrap {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(../../img/video_back.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  .video {
+    width: 400px;
+    /* background-color: red; */
+  }
+  iframe {
+    width: 100%;
+    margin-top: 46px;
+  }
+  .video_title {
+    font-size: 1.7rem;
+    color: white;
+    opacity: 0.9;
+  }
 }
