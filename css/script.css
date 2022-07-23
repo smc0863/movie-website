@@ -51,7 +51,7 @@
   background-size: cover;
   width: 255px;
   height: 365px;
-  margin-left: 64px;
+  margin-left: 68px;
 }
 .swiper-slide img {
   display: block;
@@ -79,7 +79,7 @@
     /* background-color: green; */
     position: absolute;
     left: 50%;
-    margin-left: -1028px;
+    margin-left: -1024px;
     bottom: 36px;
   }
   .swiper-slide {

@@ -201,17 +201,18 @@ header {
     margin-left: -160px;
   }
   .main_txt {
-    font-size: 1.3rem;
-    margin-top: 90px;
-    text-align: center;
+    width: 400px;
+    font-size: 1.2rem;
+    margin-top: 92px;
+    text-align: justify;
     display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
     left: 50%;
-    margin-left: -255px;
+    margin-left: -200px;
     /* background-color: blue; */
-    line-height: 30px;
+    line-height: 26px;
   }
   .btn_wrap {
     /* background-color: blue; */
