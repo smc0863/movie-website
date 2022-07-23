@@ -42,9 +42,35 @@ footer {
   letter-spacing: 1px;
   /* opacity: 0.8; */
 }
-.twitter {
+.blog a img {
   position: relative;
   top: 1.5px;
+  width: 26px;
+  height: 22px;
+}
+.youtube a img {
+  position: relative;
+  top: 1.5px;
+  width: 22px;
+  height: 24px;
+}
+.insta a img {
+  position: relative;
+  top: 1.5px;
+  width: 23px;
+  height: 23px;
+}
+.face a img {
+  position: relative;
+  top: 1.5px;
+  width: 10px;
+  height: 22px;
+}
+.twitter a img {
+  position: relative;
+  top: 1.5px;
+  width: 22px;
+  height: 19px;
 }
 @media screen and (max-width: 576px) {
   footer {
@@ -67,11 +93,40 @@ footer {
     /* background-color: red; */
   }
   .footer_logo {
-    width: 100px;
+    width: 90px;
     /* opacity: 0.8; */
   }
-
+  .blog a img {
+    position: relative;
+    top: 1.5px;
+    width: 24px;
+    height: 20px;
+  }
+  .youtube a img {
+    position: relative;
+    top: 1.5px;
+    width: 20px;
+    height: 22px;
+  }
+  .insta a img {
+    position: relative;
+    top: 1.5px;
+    width: 21px;
+    height: 21px;
+  }
+  .face a img {
+    position: relative;
+    top: 1.5px;
+    width: 9px;
+    height: 20px;
+  }
+  .twitter a img {
+    position: relative;
+    top: 3px;
+    width: 20px;
+    height: 17px;
+  }
   .copyright {
-    font: 400 1.1rem "roboto";
+    font: 400 1rem "roboto";
   }
 }
