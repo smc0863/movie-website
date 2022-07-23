@@ -191,7 +191,7 @@ header {
     height: 460px;
     /* background-color: blue; */
     position: absolute;
-    top: 120px;
+    top: 110px;
   }
   .title_img {
     width: 320px;
@@ -245,7 +245,7 @@ header {
     justify-content: center;
     align-items: center;
     position: absolute;
-    bottom: 190px;
+    bottom: 200px;
   }
   .fa-computer-mouse {
     font-size: 2rem;
