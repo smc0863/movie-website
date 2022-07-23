@@ -159,7 +159,7 @@ header {
 }
 @media screen and (max-width: 576px) {
   #header {
-    height: 800px;
+    height: 100vh;
     background-size: auto;
   }
   .header_wrap {
