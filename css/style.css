@@ -1,19 +1,19 @@
 /* css */
 @import "reset.css";
-@import "header.css";
-@import "synopsis.css";
-@import "bestcuts.css";
-@import "video.css";
+@import "./pages/header.css";
+@import "./pages/synopsis.css";
+@import "./pages/bestcuts.css";
+@import "./pages/video.css";
 @import "script.css";
-@import "poster.css";
-@import "footer.css";
+@import "./pages/poster.css";
+@import "./pages/footer.css";
 /* 구글 폰트 */
 @import url("https://fonts.googleapis.com/css2?family=Arizonia&family=Nanum+Myeongjo:wght@400;700;800&family=Noto+Sans+KR:wght@400;500;700;900&family=Noto+Serif+KR:wght@300;400;600;700&family=Roboto:wght@400;700&display=swap");
 
 html,
 body {
   font-family: "Noto Serif KR", serif;
-  font-size: 16px;
+  font-size: 62.5%;
 }
 .hidden {
   font-size: 0px;
@@ -54,3 +54,22 @@ body {
   border: none;
   outline: none;
 }
+@media screen and (max-width: 980px) {
+  .synopsis_main_title::after,
+  .synopsis_main_title::before,
+  .bestcuts_main_title::after,
+  .bestcuts_main_title::before,
+  .poster_main_title::after,
+  .poster_main_title::before {
+    display: none;
+  }
+  .saying {
+    display: none;
+  }
+}
+/* @media screen and (max-width: 768px) {
+  html,
+  body {
+    font-size: 52.5%;
+  }
+} */

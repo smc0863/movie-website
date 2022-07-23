@@ -4,7 +4,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url(../img/footer.jpg) no-repeat;
+  background: url(../../img/footer.jpg) no-repeat;
   background-size: 103%;
 }
 .footer_box {
@@ -37,7 +37,7 @@ footer {
 }
 .copyright {
   color: white;
-  font: 400 13px "roboto";
+  font: 400 1.3rem "roboto";
   /* font-weight: 300;
   font-size: 12px; */
   letter-spacing: 1px;
