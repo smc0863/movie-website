@@ -79,7 +79,6 @@ main {
 .synopsis_text_wrap {
   width: 100%;
   height: 296px;
-  /* background-color: green; */
   position: absolute;
   bottom: 30px;
   display: flex;
@@ -101,4 +100,75 @@ main {
   font-weight: 200;
   font-size: 1.8rem;
   opacity: 0.6;
+}
+.synopsis_text_2 {
+  color: white;
+  line-height: 36px;
+  text-align: center;
+  font-weight: 200;
+  font-size: 1.8rem;
+  opacity: 0.6;
+  display: none;
+}
+@media screen and (max-width: 576px) {
+  .main_wrap {
+    width: 400px;
+    /* background-color: red; */
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    margin-left: -200px;
+  }
+  .synopsis {
+    width: 100%;
+    height: 1260px;
+    /* background-color: blue; */
+    position: absolute;
+    top: 162px;
+    display: flex;
+  }
+  .synopsis_list {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 100px;
+  }
+  .synopsis li {
+    width: 301px;
+    height: 182px;
+    margin-top: 50px;
+  }
+  .synopsis li:first-child {
+    margin: 0px;
+  }
+  .synopsis_main_title {
+    font-size: 1.9rem;
+    margin-top: 0px;
+  }
+  .synopsis_text_wrap {
+    width: 100%;
+    height: 320px;
+    margin-bottom: 60px;
+    /* background-color: red; */
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .synopsis_title {
+    font-size: 1.8rem;
+    margin-bottom: 40px;
+  }
+  .synopsis_text {
+    display: none;
+  }
+  .synopsis_text_2 {
+    display: block;
+    font-size: 1.2rem;
+    line-height: 28px;
+  }
 }
