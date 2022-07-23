@@ -39,7 +39,6 @@ iframe {
     justify-content: center;
     background: url(../../img/video_back.jpg) no-repeat center;
     background-size: cover;
-    background-attachment: fixed;
   }
   .video {
     width: 400px;
@@ -47,7 +46,7 @@ iframe {
   }
   iframe {
     width: 90%;
-    height: 58%;
+    height: 50%;
     margin-top: 46px;
   }
   .video_title {
