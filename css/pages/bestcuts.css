@@ -153,15 +153,16 @@
     /* background-color: red; */
     margin-top: 40px;
   }
-}
-.photo_wrap div {
-  width: 347px;
-  height: 219px;
-  margin-top: 200px;
-}
-.moreview {
-  display: none;
-}
-.bestcuts_main_title {
-  font-size: 1.9rem;
+
+  .photo_wrap div {
+    width: 347px;
+    height: 219px;
+    margin-top: 200px;
+  }
+  .moreview {
+    display: none;
+  }
+  .bestcuts_main_title {
+    font-size: 1.9rem;
+  }
 }
