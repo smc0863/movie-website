@@ -68,6 +68,7 @@
 }
 .swiper-pagination {
   position: relative;
+  /* background-color: red; */
   top: 80px;
   left: 36px !important;
 }
@@ -79,8 +80,8 @@
     /* background-color: green; */
     position: absolute;
     left: 50%;
-    margin-left: -1032px;
-    bottom: 0px;
+    margin-left: -1028px;
+    bottom: 46px;
   }
   .swiper-slide {
     background-position: center;
@@ -91,7 +92,7 @@
   }
   .swiper-pagination {
     position: relative;
-    top: 40px;
+    top: 50px;
     left: 36px !important;
   }
 }
