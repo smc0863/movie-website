@@ -103,11 +103,11 @@ header {
   left: 0px;
   bottom: 0px;
 }
-.btn_wrap button:first-child {
+.btn_wrap a:first-child button {
   background-color: #d23a48;
   color: white;
 }
-.btn_wrap button {
+.btn_wrap a button {
   width: 168px;
   height: 52px;
   border-radius: 10px;
@@ -225,7 +225,7 @@ header {
     left: 50%;
     margin-left: -170px;
   }
-  .btn_wrap button {
+  .btn_wrap a button {
     width: 340px;
     height: 52px;
     border-radius: 6px;
