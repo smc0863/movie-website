@@ -194,11 +194,11 @@ header {
     top: 120px;
   }
   .title_img {
-    width: 300px;
+    width: 320px;
     height: 40px;
     position: absolute;
     left: 50%;
-    margin-left: -150px;
+    margin-left: -160px;
   }
   .main_txt {
     font-size: 1.3rem;
