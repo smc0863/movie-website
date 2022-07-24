@@ -14,7 +14,6 @@
   position: relative;
   top: 0px;
   left: 0px;
-  overflow: hidden;
 }
 .bestcuts_main_title::before {
   content: "";
@@ -260,7 +259,6 @@
     width: 400px;
     height: 450px;
     color: white;
-    overflow: hidden;
     /* background-color: green; */
     display: flex;
     flex-direction: column;
