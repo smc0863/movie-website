@@ -102,4 +102,10 @@
     position: relative;
     top: 50px;
   }
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+  }
 }
