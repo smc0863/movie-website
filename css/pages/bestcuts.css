@@ -151,7 +151,7 @@
     height: 1450px;
     /* background-color: red; */
     position: absolute;
-    bottom: 320px;
+    bottom: 400px;
   }
   .photo_wrap {
     width: 400px;
@@ -186,29 +186,29 @@
     display: none;
   }
   .photo_wrap ul li p {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     margin-top: 30px;
   }
   .photo_wrap ul li p span {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
   .bestcuts_main_title {
     font-size: 1.9rem;
-    margin-top: 70px;
+    margin-top: 75px;
   }
   .photo_2 {
     position: absolute;
     right: 0px;
-    top: 360px;
+    top: 380px;
   }
   .photo_3 {
     position: absolute;
     left: 0px;
-    top: 720px;
+    top: 740px;
   }
   .photo_4 {
     position: absolute;
     right: 0px;
-    top: 1080px;
+    top: 1100px;
   }
 }
