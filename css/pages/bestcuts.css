@@ -15,7 +15,6 @@
   top: 0px;
   left: 0px;
 }
-
 .bestcuts_main_title::before {
   content: "";
   display: block;
@@ -44,26 +43,29 @@
 }
 .photo_wrap {
   width: 1160px;
-  height: 1290px;
+  height: 1350px;
   position: absolute;
   left: 50%;
   margin-left: -580px;
   /* background-color: red; */
   margin-top: 110px;
 }
-.photo_wrap div {
+.photo_wrap__list {
+  height: 100%;
+}
+.photo_wrap__list li {
   width: 447px;
   height: 419px;
   color: white;
   overflow: hidden;
   /* background-color: red; */
 }
-.photo_wrap div img {
+.photo_wrap__list li img {
   width: 460px;
   height: 300px;
   transition: 0.3s ease;
 }
-.photo_wrap div img:hover {
+.photo_wrap__list li img:hover {
   transform: scale(102%);
 }
 .moreview {
@@ -86,13 +88,13 @@
   animation: ani_more 2s infinite;
   opacity: 0.8;
 }
-.photo_wrap div p {
+.photo_wrap ul li p {
   text-align: center;
   font-size: 1.9rem;
   font-weight: 400;
   margin-top: 38px;
 }
-.photo_wrap div p span {
+.photo_wrap ul li p span {
   font-size: 1.5rem;
   font-weight: 400;
   color: white;
@@ -144,25 +146,69 @@
   }
 }
 @media screen and (max-width: 576px) {
+  .bestcuts {
+    width: 100%;
+    height: 1450px;
+    /* background-color: red; */
+    position: absolute;
+    bottom: 320px;
+  }
   .photo_wrap {
     width: 400px;
-    height: 1590px;
-    position: absolute;
+    height: 1400px;
     left: 50%;
     margin-left: -200px;
-    /* background-color: red; */
-    margin-top: 40px;
   }
-
-  .photo_wrap div {
-    width: 347px;
-    height: 219px;
-    margin-top: 200px;
+  .photo_wrap__list {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    /* background-color: blue; */
+  }
+  .photo_wrap__list li {
+    width: 400px;
+    height: 300px;
+    color: white;
+    overflow: hidden;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .photo_wrap__list li img {
+    width: 301px;
+    height: 192px;
+  }
+  .saying {
+    display: none;
   }
   .moreview {
     display: none;
   }
+  .photo_wrap ul li p {
+    font-size: 1.6rem;
+    margin-top: 30px;
+  }
+  .photo_wrap ul li p span {
+    font-size: 1.2rem;
+  }
   .bestcuts_main_title {
     font-size: 1.9rem;
+    margin-top: 70px;
+  }
+  .photo_2 {
+    position: absolute;
+    right: 0px;
+    top: 360px;
+  }
+  .photo_3 {
+    position: absolute;
+    left: 0px;
+    top: 720px;
+  }
+  .photo_4 {
+    position: absolute;
+    right: 0px;
+    top: 1080px;
   }
 }

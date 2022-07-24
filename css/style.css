@@ -63,9 +63,6 @@ body {
   .poster_main_title::before {
     display: none;
   }
-  .saying {
-    display: none;
-  }
 }
 /* @media screen and (max-width: 768px) {
   html,
