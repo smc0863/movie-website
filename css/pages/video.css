@@ -30,7 +30,7 @@ iframe {
   color: white;
   opacity: 0.9;
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 768px) {
   .video_wrap {
     width: 100%;
     height: 400px;

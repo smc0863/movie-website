@@ -71,7 +71,7 @@
   top: 90px;
   left: 24px !important;
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 768px) {
   .swiper {
     width: 2000px;
     padding-top: 50px;

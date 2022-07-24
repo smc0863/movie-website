@@ -145,7 +145,7 @@
     width: 0px;
   }
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 768px) {
   .bestcuts {
     width: 100%;
     height: 1500px;
