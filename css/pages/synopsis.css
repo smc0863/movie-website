@@ -5,6 +5,7 @@ main {
   position: relative;
   top: 0px;
   left: 0px;
+  overflow: hidden;
 }
 .main_wrap {
   width: 1160px;
@@ -85,6 +86,7 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  /* background-color: red; */
 }
 .synopsis_title {
   font-size: 2.8rem;
@@ -109,6 +111,53 @@ main {
   font-size: 1.8rem;
   opacity: 0.6;
   display: none;
+}
+@media screen and (max-width: 1200px) {
+  .main_wrap {
+    width: 980px;
+    /* background-color: red; */
+    position: absolute;
+    left: 50%;
+    margin-left: -490px;
+  }
+  .synopsis {
+    width: 100%;
+    height: 860px;
+    /* background-color: blue; */
+    position: absolute;
+    top: 282px;
+    display: flex;
+  }
+  .synopsis li {
+    width: 301px;
+    height: 182px;
+  }
+  .synopsis_main_title {
+    font-size: 2.4rem;
+    color: white;
+    opacity: 0.9;
+    margin-top: 10px;
+  }
+  .synopsis_main_title::before {
+    width: 41%;
+    position: absolute;
+    top: 24px;
+    left: 0px;
+  }
+  .synopsis_main_title::after {
+    width: 41%;
+    top: 24px;
+    right: 0px;
+  }
+  .synopsis_title {
+    font-size: 2.4rem;
+  }
+  .synopsis_text {
+    font-size: 1.6rem;
+  }
+  .synopsis_text_wrap {
+    bottom: 70px;
+  }
 }
 @media screen and (max-width: 768px) {
   .main_wrap {

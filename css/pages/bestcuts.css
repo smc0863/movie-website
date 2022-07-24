@@ -14,6 +14,7 @@
   position: relative;
   top: 0px;
   left: 0px;
+  overflow: hidden;
 }
 .bestcuts_main_title::before {
   content: "";
@@ -55,7 +56,7 @@
 }
 .photo_wrap__list li {
   width: 447px;
-  height: 419px;
+  height: 450px;
   color: white;
   overflow: hidden;
   /* background-color: red; */
@@ -145,6 +146,94 @@
     width: 0px;
   }
 }
+@media screen and (max-width: 1200px) {
+  .bestcuts {
+    width: 100%;
+    height: 1400px;
+    /* background-color: red; */
+    bottom: 540px;
+  }
+  .photo_wrap {
+    width: 980px;
+    height: 1600px;
+    left: 50%;
+    margin-left: -490px;
+    /* background-color: red; */
+    margin-top: 110px;
+  }
+  .bestcuts_main_title::before {
+    width: 34%;
+    top: 24px;
+    left: 0px;
+  }
+  .bestcuts_main_title::after {
+    width: 34%;
+    top: 24px;
+    right: 0px;
+  }
+  .bestcuts_main_title {
+    font-size: 2.4rem;
+    margin-top: 10px;
+  }
+  .saying {
+    font: 900 7rem "Arizonia";
+    position: absolute;
+    bottom: 60px;
+    left: 68px;
+    line-height: 90px;
+  }
+  .photo_wrap__list li {
+    width: 380px;
+    height: 400px;
+    color: white;
+    overflow: hidden;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .photo_wrap__list li img {
+    width: 380px;
+    height: 260px;
+    transition: 0.3s ease;
+  }
+  .photo_wrap ul li p {
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin-top: 30px;
+  }
+  .photo_wrap ul li p span {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: white;
+    opacity: 0.6;
+    letter-spacing: 0.7px;
+  }
+  .photo_wrap_title {
+    padding-top: 26px;
+  }
+  .photo_2 {
+    position: absolute;
+    right: 0px;
+    top: 325px;
+  }
+  .photo_3 {
+    position: absolute;
+    left: 0px;
+    top: 650px;
+  }
+  .photo_4 {
+    position: absolute;
+    right: 0px;
+    top: 975px;
+  }
+  .moreview {
+    /* background-color: red; */
+    font-size: 1.4rem;
+    width: 90px;
+  }
+}
 @media screen and (max-width: 768px) {
   .bestcuts {
     width: 100%;
@@ -169,7 +258,7 @@
   }
   .photo_wrap__list li {
     width: 400px;
-    height: 300px;
+    height: 450px;
     color: white;
     overflow: hidden;
     /* background-color: green; */
@@ -202,17 +291,17 @@
   .photo_2 {
     position: absolute;
     right: 0px;
-    top: 380px;
+    top: 390px;
   }
   .photo_3 {
     position: absolute;
     left: 0px;
-    top: 760px;
+    top: 780px;
   }
   .photo_4 {
     position: absolute;
     right: 0px;
-    top: 1140px;
+    top: 1170px;
   }
   .bestcuts_main_title::before {
     content: "";

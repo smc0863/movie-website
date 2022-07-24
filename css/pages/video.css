@@ -30,6 +30,25 @@ iframe {
   color: white;
   opacity: 0.9;
 }
+@media screen and (max-width: 1200px) {
+  .video_wrap {
+    background-size: cover;
+  }
+  .video {
+    width: 980px;
+    /* background-color: red; */
+    overflow: hidden;
+  }
+  iframe {
+    margin-top: 90px;
+    width: 80%;
+    height: 47%;
+    /* border-radius: 6px; */
+  }
+  .video_title {
+    font-size: 2.4rem;
+  }
+}
 @media screen and (max-width: 768px) {
   .video_wrap {
     width: 100%;
@@ -52,7 +71,5 @@ iframe {
   }
   .video_title {
     font-size: 1.9rem;
-    color: white;
-    opacity: 0.9;
   }
 }
