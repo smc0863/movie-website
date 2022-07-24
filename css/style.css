@@ -54,7 +54,7 @@ body {
   border: none;
   outline: none;
 }
-@media screen and (max-width: 980px) {
+/* @media screen and (max-width: 980px) {
   .synopsis_main_title::after,
   .synopsis_main_title::before,
   .bestcuts_main_title::after,
@@ -63,7 +63,7 @@ body {
   .poster_main_title::before {
     display: none;
   }
-}
+} */
 /* @media screen and (max-width: 768px) {
   html,
   body {

@@ -66,6 +66,14 @@
   .poster_title_wrap {
     margin-top: 60px;
   }
+  .poster_main_title::before {
+    width: 25%;
+    top: 21px;
+  }
+  .poster_main_title::after {
+    width: 25%;
+    top: 21px;
+  }
 }
 /* .poster_box {
   width: 2070px;
