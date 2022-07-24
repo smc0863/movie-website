@@ -148,16 +148,18 @@
 @media screen and (max-width: 576px) {
   .bestcuts {
     width: 100%;
-    height: 1450px;
+    height: 1500px;
     /* background-color: red; */
     position: absolute;
-    bottom: 400px;
+    bottom: 270px;
   }
   .photo_wrap {
     width: 400px;
     height: 1400px;
     left: 50%;
     margin-left: -200px;
+    /* background-color: red; */
+    margin-top: 46px;
   }
   .photo_wrap__list {
     display: flex;
@@ -194,6 +196,7 @@
   }
   .bestcuts_main_title {
     font-size: 1.9rem;
+    /* background-color: red; */
   }
   .photo_2 {
     position: absolute;
@@ -203,31 +206,31 @@
   .photo_3 {
     position: absolute;
     left: 0px;
-    top: 740px;
+    top: 760px;
   }
   .photo_4 {
     position: absolute;
     right: 0px;
-    top: 1100px;
+    top: 1140px;
   }
   .bestcuts_main_title::before {
     content: "";
     display: block;
-    width: 26%;
+    width: 22%;
     border-top: 1px solid white;
     position: absolute;
     top: 22px;
-    left: 0px;
+    left: 16px;
     opacity: 0.7;
   }
   .bestcuts_main_title::after {
     content: "";
     display: block;
-    width: 26%;
+    width: 22%;
     border-top: 1px solid white;
     position: absolute;
     top: 22px;
-    right: 0px;
+    right: 16px;
     opacity: 0.7;
   }
 }

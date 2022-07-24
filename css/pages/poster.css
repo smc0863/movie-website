@@ -67,12 +67,14 @@
     margin-top: 60px;
   }
   .poster_main_title::before {
-    width: 25%;
+    width: 21.5%;
     top: 21px;
+    left: 16px;
   }
   .poster_main_title::after {
-    width: 25%;
+    width: 21.5%;
     top: 21px;
+    right: 16px;
   }
 }
 /* .poster_box {
