@@ -39,9 +39,9 @@ iframe {
     overflow: hidden;
   }
   iframe {
-    margin-top: 90px;
-    width: 80%;
-    height: 47%;
+    margin-top: 100px;
+    width: 90%;
+    height: 55%;
     /* border-radius: 6px; */
   }
   .video_title {
@@ -65,7 +65,7 @@ iframe {
   }
   iframe {
     width: 88%;
-    height: 45%;
+    height: 49%;
     margin-top: 80px;
   }
   .video_title {
