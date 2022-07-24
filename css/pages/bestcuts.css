@@ -176,6 +176,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    overflow: hidden;
   }
   .photo_wrap__list li img {
     width: 301px;
@@ -195,7 +196,7 @@
     font-size: 1.1rem;
   }
   .bestcuts_main_title {
-    font-size: 1.9rem;
+    font-size: 1.8rem;
     /* background-color: red; */
   }
   .photo_2 {
@@ -219,8 +220,8 @@
     width: 22%;
     border-top: 1px solid white;
     position: absolute;
-    top: 22px;
-    left: 16px;
+    top: 20px;
+    left: 20px;
     opacity: 0.7;
   }
   .bestcuts_main_title::after {
@@ -229,8 +230,8 @@
     width: 22%;
     border-top: 1px solid white;
     position: absolute;
-    top: 22px;
-    right: 16px;
+    top: 20px;
+    right: 20px;
     opacity: 0.7;
   }
 }

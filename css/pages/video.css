@@ -39,11 +39,11 @@ iframe {
     justify-content: center;
     background: url(../../img/video_back.jpg) no-repeat center;
     background-size: cover;
-    background-attachment: fixed;
   }
   .video {
     width: 400px;
     /* background-color: red; */
+    overflow: hidden;
   }
   iframe {
     width: 88%;

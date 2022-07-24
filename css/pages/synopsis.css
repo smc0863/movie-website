@@ -118,6 +118,7 @@ main {
     top: 0px;
     left: 50%;
     margin-left: -200px;
+    overflow: hidden;
   }
   .synopsis {
     width: 100%;
@@ -145,7 +146,7 @@ main {
     margin: 0px;
   }
   .synopsis_main_title {
-    font-size: 1.9rem;
+    font-size: 1.8rem;
     margin-top: 0px;
   }
   .synopsis_text_wrap {
@@ -177,8 +178,8 @@ main {
     width: 30%;
     border-top: 1px solid white;
     position: absolute;
-    top: 13px;
-    left: 16px;
+    top: 11px;
+    left: 20px;
     opacity: 0.7;
   }
   .synopsis_main_title::after {
@@ -187,8 +188,8 @@ main {
     width: 30%;
     border-top: 1px solid white;
     position: absolute;
-    top: 13px;
-    right: 16px;
+    top: 11px;
+    right: 20px;
     opacity: 0.7;
   }
 }
