@@ -218,13 +218,14 @@ header {
 }
 @media screen and (max-width: 768px) {
   #header {
-    height: 780px;
+    height: 700px;
     background-size: auto;
     display: flex;
     align-items: center;
   }
   .header_wrap {
     width: 400px;
+    height: 100%;
     /* background-color: red; */
     position: absolute;
     left: 50%;
@@ -250,7 +251,7 @@ header {
     height: 420px;
     /* background-color: blue; */
     position: absolute;
-    top: 110px;
+    top: 90px;
   }
   .title_img {
     width: 320px;
@@ -262,7 +263,7 @@ header {
   .main_txt {
     width: 400px;
     font-size: 1.2rem;
-    margin-top: 70px;
+    margin-top: 72.5px;
     text-align: justify;
     display: flex;
     justify-content: center;
@@ -287,7 +288,7 @@ header {
   }
   .btn_wrap a button {
     width: 340px;
-    height: 52px;
+    height: 50px;
     border-radius: 6px;
     border-style: none;
     color: #373737;
@@ -305,7 +306,7 @@ header {
     justify-content: center;
     align-items: center;
     position: absolute;
-    bottom: 240px;
+    bottom: 260px;
   }
   .fa-computer-mouse {
     font-size: 1.8rem;
