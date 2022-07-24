@@ -91,12 +91,12 @@
     position: absolute;
     left: 50%;
     margin-left: -1024px;
-    bottom: 65px;
+    bottom: 55px;
   }
   .swiper-slide {
     width: 205px;
     height: 315px;
-    margin-left: 54px;
+    margin-left: 50px;
   }
   .swiper-pagination {
     position: relative;
