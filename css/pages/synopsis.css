@@ -112,7 +112,7 @@ main {
   opacity: 0.6;
   display: none;
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1300px) {
   .main_wrap {
     width: 980px;
     /* background-color: red; */
